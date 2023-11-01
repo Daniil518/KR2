@@ -14,6 +14,7 @@ public class Cleaning extends Staff1 implements Staff,Help {
     public Cleaning(int age, String name, String surname, String patronymic, int working_hours) {
         super(age, name, surname, patronymic, working_hours);
         cleaning_id = counter++;
+        //Констурктор для Уборщи(ка/цы) создающий поля для данного класса
     }
     public int getCleaning_id(){
         return cleaning_id;

@@ -15,6 +15,7 @@ public class inspector extends Staff1 implements Staff,Clin,Check,Help {
     public inspector(int age, String name, String surname, String patronymic, int working_hours) {
         super(age, name, surname, patronymic, working_hours);
         inspector_id=counter++;
+        //Констурктор для Проверяющих создающий поля для данного класса
     }
     public int getInspector_id(){
         return inspector_id;
@@ -33,6 +34,6 @@ public class inspector extends Staff1 implements Staff,Clin,Check,Help {
     }
     @Override
     public void help() {
-        System.out.println("Может помочь человеку");
+        System.out.println("Помогает людям");
     }
 }

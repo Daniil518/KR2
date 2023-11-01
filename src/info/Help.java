@@ -1,5 +1,5 @@
 package info;
 
 public interface Help {
-    void help();
+    void help();//Помощь
 }

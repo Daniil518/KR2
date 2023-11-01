@@ -12,6 +12,7 @@ public class Administrator extends Staff1 implements Staff,Clin,Cash,Check,Help 
     public Administrator(int age, String name, String surname, String patronymic, int working_hours) {
         super(age, name, surname, patronymic, working_hours);
         admin_id=counter++;
+        //Констурктор для Администратора создающий поля для данного класса
     }
     public int getAdmin_id(){
         return admin_id;
@@ -39,6 +40,5 @@ public class Administrator extends Staff1 implements Staff,Clin,Cash,Check,Help 
     @Override
     public void help() {
         System.out.println("Должен всем помогать");
-
     }
 }

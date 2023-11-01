@@ -15,6 +15,7 @@ public class cashier extends Staff1 implements Cash,Check,Help {
     public cashier(int age, String name, String surname, String patronymic, int working_hours) {
         super(age, name, surname, patronymic, working_hours);
         casher_id=counter++;
+        //Констурктор для Кассира создающий поля для данного класса
     }
     public int getCasher_id(){
         return casher_id;
@@ -34,6 +35,6 @@ public class cashier extends Staff1 implements Cash,Check,Help {
     }
     @Override
     public void help() {
-        System.out.println("Может помочь человеку");
+        System.out.println("Может подсказать");
     }
 }

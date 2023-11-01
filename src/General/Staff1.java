@@ -7,12 +7,19 @@ public abstract class Staff1 {
     private String patronymic;
     private int working_hours;
 
-    public Staff1(int age,String name,String surname,String patronymic,int working_hours){
+    public Staff1(int age,String name,String surname,String patronymic,int working_hours){//Конструктор, который содержит в себе поля, для данных сотрудников.
         this.age = age;
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;
         this.working_hours = working_hours;
+    }
+    public void conclusion(){//Метод который выводит в консоль инфморцию о сотрудниках
+        System.out.print(" Возраст: " + getAge());
+        System.out.print(". Имя: " + getName());
+        System.out.print(". Фамилия: " + getSurname());
+        System.out.print(". Отчество: " + getPatronymic());
+        System.out.print(". Часы работы: " + getWorking_hours());
     }
     public int getWorking_hours(){
         return working_hours;

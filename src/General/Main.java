@@ -23,6 +23,17 @@ public class Main {
 
         Cleaning clin1 = new Cleaning(47,"Екатерина","Рейс","Максимова",8);
         Cleaning clin2 = new Cleaning(40,"Богдан","Кугеев","Артемов",8);
+
+        //Вывод
+        admin1.conclusion();
+        System.out.println(": Администратор");
+        cash1.conclusion();
+        System.out.println(": Кассир ");
+        ins1.conclusion();
+        System.out.println(": Проверяющий ");
+        clin1.conclusion();
+        System.out.println(": Уборщица ");
+
     }
 }
 /*
