@@ -26,13 +26,17 @@ public class Main {
 
         //Вывод
         admin1.conclusion();
-        System.out.println(": Администратор");
+        System.out.println(" ID " + admin1.getAdmin_id() + ": Администратор");
+        System.out.println();
         cash1.conclusion();
-        System.out.println(": Кассир ");
+        System.out.println(" ID " + cash1.getCasher_id() + ": Кассир ");
+        System.out.println();
         ins1.conclusion();
-        System.out.println(": Проверяющий ");
+        System.out.println(" ID " + ins1.getInspector_id() + ": Проверяющий ");
+        System.out.println();
         clin1.conclusion();
-        System.out.println(": Уборщица ");
+        System.out.println(" ID " + clin1.getCleaning_id() + ": Уборщица ");
+        System.out.println();
 
     }
 }

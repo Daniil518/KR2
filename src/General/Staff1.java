@@ -20,6 +20,7 @@ public abstract class Staff1 {
         System.out.print(". Фамилия: " + getSurname());
         System.out.print(". Отчество: " + getPatronymic());
         System.out.print(". Часы работы: " + getWorking_hours());
+        System.out.print(":");
     }
     public int getWorking_hours(){
         return working_hours;
